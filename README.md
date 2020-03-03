@@ -1,4 +1,4 @@
-# Engineering 54 python basics :Taco:
+# Engineering 54 Python Basics :taco:
 
 ## This is a repo with the basics for python we will cover:
 - variables
