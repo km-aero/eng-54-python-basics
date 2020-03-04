@@ -37,6 +37,8 @@ for i in range(len(food_order)):
     food_order[i] = food_order[i].capitalize()
     print(food_order[i])
 
+print('Thank you! Your order will be with you shortly')
+
 
 # I need to print each item from the list
 

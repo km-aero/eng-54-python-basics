@@ -9,6 +9,7 @@ species = input('species?\n')
 eye_colour = input('eye colour?\n')
 hair_colour = input('hair colour?\n')
 age = int(input('age?\n'))
+birth_month = int(input('Birth month in integer form?\n'))
 
 ## Calculate year of birth
 # import time
@@ -18,6 +19,10 @@ from datetime import date as dt
 
 today = dt.today().year
 year_of_birth = today - age
+
+today_month = dt.today().month
+if birth_month > today_month:
+    year_of_birth -= 1
 
 print(f'Hello {name} {last_name}! Welcome, your age is {age}, your year of birth is {year_of_birth},\n'
       + f'your eyes are {eye_colour} and your hair color is {hair_colour}.')
